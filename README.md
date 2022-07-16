@@ -2,6 +2,34 @@
 Built with Laravel for the Task-2. Seeder is ready in the project; 
 Please run: php artisan db:seed --class=DatabaseSeeder  for generate fake data.
 
+##Installation
+git clone https://github.com/kirciemre/it-task-innoscripta.git
+
+CD into your project;
+
+composer install
+
+npm install
+
+cp env.example .env
+
+php artisan key:generate
+
+Setup local MySQL database or different one,
+
+php artisan migrate
+
+Start local server with 
+php artisan serve 
+
+Register via Auth and fill your Profile informations.
+
+Start user seeding with this;
+php artisan db:seed --class=DatabaseSeeder
+
+
+
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
